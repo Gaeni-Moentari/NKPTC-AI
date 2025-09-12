@@ -7,7 +7,7 @@ from langchain.chat_models import ChatOpenAI
 from urlbase import url
 load_dotenv()
 
-openai_model = os.getenv("OPENAI_MODEL_NAME")
+openai_model = "gpt-3.5-turbo"
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 if not openai_api_key:
