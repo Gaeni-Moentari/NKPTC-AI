@@ -32,4 +32,4 @@ jobs:
             SERPER_API_KEY='${{ secrets.SERPER_API_KEY }}' \
             GROQ_API_KEY='${{ secrets.GROQ_API_KEY }}' \
             TAVILY_API_KEY='${{ secrets.TAVILY_API_KEY }}' \
-            docker stack deploy -c ~/nkptc-deploy.yml seps"
+            docker stack deploy -c ~/nkptc-deploy.yml nkptc"
